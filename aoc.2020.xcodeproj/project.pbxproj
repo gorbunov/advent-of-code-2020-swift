@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		731FFE872577659800A73802 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FFE862577659800A73802 /* main.swift */; };
+		731FFE9625779C2A00A73802 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FFE9525779C2A00A73802 /* Solution.swift */; };
+		731FFE992577A98400A73802 /* SolutionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FFE982577A98400A73802 /* SolutionFactory.swift */; };
+		731FFE9D2577AADD00A73802 /* AOC2020Day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FFE9C2577AADD00A73802 /* AOC2020Day01.swift */; };
+		731FFEA02577AC2400A73802 /* EmptySolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FFE9F2577AC2400A73802 /* EmptySolution.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		731FFE832577659800A73802 /* aoc.2020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = aoc.2020; sourceTree = BUILT_PRODUCTS_DIR; };
 		731FFE862577659800A73802 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		731FFE9525779C2A00A73802 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		731FFE982577A98400A73802 /* SolutionFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionFactory.swift; sourceTree = "<group>"; };
+		731FFE9C2577AADD00A73802 /* AOC2020Day01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC2020Day01.swift; sourceTree = "<group>"; };
+		731FFE9F2577AC2400A73802 /* EmptySolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySolution.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,21 @@
 		731FFE852577659800A73802 /* aoc.2020 */ = {
 			isa = PBXGroup;
 			children = (
+				731FFE8E257765D200A73802 /* day.01 */,
 				731FFE862577659800A73802 /* main.swift */,
+				731FFE9525779C2A00A73802 /* Solution.swift */,
+				731FFE982577A98400A73802 /* SolutionFactory.swift */,
+				731FFE9F2577AC2400A73802 /* EmptySolution.swift */,
 			);
 			path = aoc.2020;
+			sourceTree = "<group>";
+		};
+		731FFE8E257765D200A73802 /* day.01 */ = {
+			isa = PBXGroup;
+			children = (
+				731FFE9C2577AADD00A73802 /* AOC2020Day01.swift */,
+			);
+			path = day.01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731FFEA02577AC2400A73802 /* EmptySolution.swift in Sources */,
+				731FFE9625779C2A00A73802 /* Solution.swift in Sources */,
 				731FFE872577659800A73802 /* main.swift in Sources */,
+				731FFE992577A98400A73802 /* SolutionFactory.swift in Sources */,
+				731FFE9D2577AADD00A73802 /* AOC2020Day01.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
